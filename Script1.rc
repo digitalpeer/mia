@@ -1,0 +1,655 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_MAIN MENU DISCARDABLE 
+BEGIN
+    POPUP "Mia"
+    BEGIN
+        MENUITEM "Away Message",                ID_MIA_AWAYMESSAGE
+        MENUITEM "Edit Profile",                ID_EDITINFO
+        POPUP "Edit Options"
+        BEGIN
+            MENUITEM "Preferences",                 ID_MIA_EDITOPTIONS_PREFERENCES
+
+            MENUITEM "Change Password",             ID_OPTIONS_CHANGEPASSWORD
+
+            MENUITEM SEPARATOR
+            MENUITEM "Delete All Log FIles",        ID_MIA_EDITOPTIONS_DELETEALLLOGFILES
+
+        END
+        POPUP "Windows"
+        BEGIN
+            MENUITEM "Debug Window",                ID_MIA_DEBUGWINDOW
+            MENUITEM SEPARATOR
+            MENUITEM "Close All",                   ID_MIA_CLOSEALLWINDOWS
+            MENUITEM "Show All",                    ID_MIA_SHOWALLWINDOWS
+            MENUITEM "Minimize All",                ID_MIA_MINIMIZEALLWINDOWS
+
+            MENUITEM "Show Buddy List",             ID_MIA_SHOWMAINWINDOW
+            MENUITEM "Minimize Buddy List",         ID_MIA_MINIMIZEMAINWINDOW
+
+            MENUITEM SEPARATOR
+            MENUITEM "Keep Buddy List On Top",      ID_MIA_WINDOWS_KEEPBUDDYLISTONTOP
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Load Buddy List",             ID_MIA_LOADLIST
+        MENUITEM "Save Buddy List",             ID_MIA_SAVELIST
+        MENUITEM SEPARATOR
+        MENUITEM "Sign On",                     ID_MIA_SIGNONSIGNOFF
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_MIA_EXIT
+    END
+    POPUP "About"
+    BEGIN
+        MENUITEM "About Mia",                   ID_ABOUT_ABOUTMIA
+        MENUITEM "Help",                        ID_ABOUT_HELP
+        MENUITEM "Feedback",                    ID_ABOUT_FEEDBACK
+    END
+END
+
+IDR_MENU_CHAT MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Load Chat",                   ID_CHAT_FILE_LOAD
+        MENUITEM "Save Chat",                   ID_CHAT_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_CHAT_FILE_EXIT
+    END
+    POPUP "Options"
+    BEGIN
+        MENUITEM "Block Buddy",                 ID_CHAT_OPTIONS_BLOCKBUDDY
+        MENUITEM "Warn Buddy",                  ID_CHAT_OPTIONS_WARNBUDDY
+    END
+END
+
+IDR_MENU_TRAY MENU DISCARDABLE 
+BEGIN
+    POPUP "POPUP"
+    BEGIN
+        POPUP "Edit Options"
+        BEGIN
+            MENUITEM "Preferences",                 ID_MIA_EDITOPTIONS_PREFERENCES
+
+            MENUITEM "Change Password",             ID_OPTIONS_CHANGEPASSWORD
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Away Message",                ID_MIA_AWAYMESSAGE
+        MENUITEM "Edit Profile",                ID_EDITINFO
+        POPUP "Windows"
+        BEGIN
+            MENUITEM "Debug Window",                ID_MIA_DEBUGWINDOW
+            MENUITEM SEPARATOR
+            MENUITEM "Close All",                   ID_MIA_CLOSEALLWINDOWS
+            MENUITEM "Show All",                    ID_MIA_SHOWALLWINDOWS
+            MENUITEM "Minimize All",                ID_MIA_MINIMIZEALLWINDOWS
+
+            MENUITEM "Show Buddy List",             ID_MIA_SHOWMAINWINDOW
+            MENUITEM "Minimize Buddy List",         ID_MIA_MINIMIZEMAINWINDOW
+
+            MENUITEM SEPARATOR
+            MENUITEM "Keep Buddy List On Top",      ID_MIA_WINDOWS_KEEPBUDDYLISTONTOP
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Load Buddy List",             ID_MIA_LOADLIST
+        MENUITEM "Save Buddy List",             ID_MIA_SAVELIST
+        MENUITEM SEPARATOR
+        MENUITEM "Sign Off",                    ID_MIA_SIGNONSIGNOFF
+        MENUITEM "Exit",                        ID_MIA_EXIT
+    END
+END
+
+IDR_MENU_DEBUG MENU DISCARDABLE 
+BEGIN
+    POPUP "Debug"
+    BEGIN
+        MENUITEM "Save Debug",                  ID_SAVE
+        MENUITEM "Open Debug",                  ID_LOAD
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_DEBUG_EXIT
+    END
+END
+
+IDR_MENU_BUDDY MENU DISCARDABLE 
+BEGIN
+    POPUP "TOP"
+    BEGIN
+        MENUITEM "BuddyName",                   ID_TOP_BUDDYNAME
+        MENUITEM SEPARATOR
+        MENUITEM "IdleTime:",                   ID_TOP_IDLETIME
+        MENUITEM "Online Time:",                ID_TOP_ONLINETIME
+        MENUITEM "Warning Level:",              ID_TOP_WARNINGLEVEL
+        MENUITEM "Service:",                    ID_TOP_SERVICE
+        MENUITEM SEPARATOR
+        MENUITEM "Get User Info",               ID_TOP_GETUSERINFO
+        MENUITEM "Invite to Chat",              ID_TOP_INVITETOCHAT
+        MENUITEM "Send Message",                ID_TOP_SENDMESSAGE
+        MENUITEM "Block Buddy",                 ID_TOP_BLOCKBUDDY
+        MENUITEM "Copy Buddy Name to Clipboard", 
+                                                ID_TOP_COPYBUDDYNAMETOCLIPBOARD
+
+        MENUITEM SEPARATOR
+    END
+END
+
+IDR_MENU_STATUS MENU DISCARDABLE 
+BEGIN
+    POPUP "POP"
+    BEGIN
+        MENUITEM "Offline",                     ID_MIA_STATUS_SIGNOFF
+        MENUITEM "Online",                      ID_MIA_STATUS_SIGNON
+        MENUITEM "Idle",                        ID_MIA_STATUS_IDLE
+        MENUITEM "Away",                        ID_MIA_STATUS_AWAY
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SIGNON DIALOG DISCARDABLE  0, 0, 145, 199
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Sign On"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_USERNAME,21,111,102,20,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_PASSWORD,21,135,102,12,ES_PASSWORD
+    DEFPUSHBUTTON   "Sign On",IDC_SIGNON,105,178,30,14
+    CONTROL         "Save Password",IDC_SAVEPASSWORD,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,9,153,64,8
+    CONTROL         "Auto Login",IDC_AUTOLOGIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,87,153,49,8
+    PUSHBUTTON      "Options",IDC_OPTIONS,66,178,29,14
+    CONTROL         "Username:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,21,103,35,8
+    LTEXT           "Password:",IDC_STATIC,21,127,34,8
+    CTEXT           "Signon",IDC_STATUS,7,82,131,17,SS_CENTERIMAGE
+    PUSHBUTTON      "Show Debug",IDC_SHOWDEBUG,10,178,46,14
+    CONTROL         "Enable Logging for Session",IDC_ENABLELOGGING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,9,167,102,10
+END
+
+PROPERTIES DIALOG DISCARDABLE  0, 0, 345, 217
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "MIA Preferences"
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_AWAYMESSAGE DIALOG DISCARDABLE  0, 0, 273, 190
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Away Message"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "I'm Away",IDB_AWAYTOGGLE,216,169,50,14
+    EDITTEXT        IDC_AWAYMESSAGEEDIT,7,7,259,148,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "Time = %t    Date = %d    Chat Sessions = %c    Computer Uptime = %u",
+                    IDC_STATIC,26,158,222,8
+END
+
+PROPERTIES_NETWORK DIALOG DISCARDABLE  0, 0, 297, 209
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Network"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_P_TOCHOST,15,31,127,12,ES_AUTOHSCROLL
+    LTEXT           "Server Address (Host)",IDC_STATIC,15,23,70,8
+    EDITTEXT        IDC_P_TOCPORT,15,63,127,12,ES_AUTOHSCROLL
+    LTEXT           "Server Port",IDC_STATIC,15,54,36,8
+    PUSHBUTTON      "Reset to Defaults",IDC_P_RESETNETWORKDEFAULT,151,61,60,
+                    14
+    GROUPBOX        "TOC Protocol",IDC_STATIC,7,7,209,74
+END
+
+PROPERTIES_BUDDYLIST DIALOG DISCARDABLE  0, 0, 297, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Buddy List"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Who Can Contact Me",IDC_STATIC,199,142,79,52
+    CONTROL         "Allow Nobody",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    207,166,65,10
+    CONTROL         "Allow Everyone",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,
+                    207,153,65,10
+    CONTROL         "Allow Some",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,207,
+                    178,65,10
+    CONTROL         "Keep Buddy Window Always On Top",IDC_KEEYBUDDYLISTONTOP,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,7,133,10
+    LISTBOX         IDC_LIST1,189,25,94,99,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Blocked Buddies",IDC_STATIC,189,17,54,8
+    EDITTEXT        IDC_BUDDYLISTFONT,7,34,134,12,ES_AUTOHSCROLL
+    LTEXT           "Buddy List Font:",IDC_STATIC,7,26,52,8
+    GROUPBOX        "Privacy",IDC_STATIC,184,7,106,193
+    PUSHBUTTON      "Add",IDC_ADDBLOCKEDBUDDY,189,128,94,12
+    GROUPBOX        "Colors",IDC_STATIC,7,147,171,53
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 244, 178
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MIA"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,187,157,50,14
+    LTEXT           "Mia by digitalpeer",IDC_STATIC,89,22,56,8
+    LTEXT           "Version 0.01 BETA",IDC_STATIC,85,7,61,8
+    EDITTEXT        IDC_EDIT1,7,33,230,120,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL
+END
+
+IDD_INFO DIALOGEX 0, 0, 286, 263
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "User Info"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "OK",IDCANCEL,229,242,50,14
+    EDITTEXT        IDC_HTMLVIEW,7,16,272,219,ES_AUTOHSCROLL,
+                    WS_EX_STATICEDGE
+    LTEXT           "Fetching User Info . . .",IDC_GETINFOSTATUS,7,7,71,8
+END
+
+IDD_EDITINFO DIALOG DISCARDABLE  0, 0, 278, 238
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit My Info"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "OK",ID_SAVEINFO,221,217,50,14
+    PUSHBUTTON      "Cancel",ID_CANCELINFO,168,217,50,14
+    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_BORDER | WS_TABSTOP,7,18,258,174
+    LTEXT           "Enter Text or HTML Info:",IDC_STATIC,7,7,80,8
+    LTEXT           "Time = %t    Date = %d    Chat Sessions = %c    Computer Uptime = %u",
+                    IDC_STATIC,29,202,222,8
+END
+
+IDD_ADDBUDDY DIALOG DISCARDABLE  0, 0, 136, 87
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Buddy"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Add",ID_ADD,79,66,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,24,66,50,14
+    COMBOBOX        IDC_COMBO1,18,15,102,55,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,18,42,102,12,ES_AUTOHSCROLL
+    LTEXT           "Select/Create Group:",IDC_STATIC,16,7,68,8
+    LTEXT           "Buddy Name:",IDC_STATIC,18,31,44,8
+END
+
+IDD_ADDGROUP DIALOG DISCARDABLE  0, 0, 137, 71
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Group"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Add",ID_ADD,80,50,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,23,50,50,14
+    EDITTEXT        IDC_EDIT1,17,23,105,12,ES_AUTOHSCROLL
+    LTEXT           "Group Name:",IDC_STATIC,17,13,43,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 173, 263
+STYLE WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_STATICEDGE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Online",IDC_BUTTON3,3,244,42,12,BS_FLAT
+    PUSHBUTTON      "Buddy",IDC_BUTTON4,2,41,39,9,BS_FLAT
+    PUSHBUTTON      "Delete",IDC_BUTTON5,1,52,39,9,BS_FLAT
+    PUSHBUTTON      "Group",IDC_BUTTON6,2,30,39,9,BS_FLAT
+    PUSHBUTTON      "Close All",IDC_BUTTON7,1,74,34,9,BS_FLAT
+    PUSHBUTTON      "Options",IDC_BUTTON8,2,230,42,12,BS_FLAT
+    LTEXT           "THIS IS JUST A DUMMY DIALOG I USED TO DRAW OUT THE MAIN WINDOW IN MY HEAD",
+                    IDC_STATIC,58,4,115,35
+    LTEXT           "Static",IDC_STATIC,49,232,113,24,SS_SUNKEN | WS_BORDER
+    EDITTEXT        IDC_EDIT1,32,136,107,25,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+END
+
+PROPERTIES_LOGGING DIALOG DISCARDABLE  0, 0, 313, 205
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Logging"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Enable AIM Chat Logging",IDC_P_ENABLEAIMCHATLOGGING,
+                    "Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,35,
+                    42,97,10
+    GROUPBOX        "Static",IDC_STATIC,28,26,109,67
+    PUSHBUTTON      "Delete All Log Files",IDC_BUTTON1,200,149,74,18
+    EDITTEXT        IDC_LOGDIR,7,124,299,12,ES_AUTOHSCROLL
+    LTEXT           "Log Directory:",IDC_STATIC,7,116,45,8
+END
+
+PROPERTIES_USER DIALOG DISCARDABLE  0, 0, 303, 213
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Accounts"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_P_TOCUSERNAME,14,23,102,61,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_P_TOCPASSWORD,14,47,102,12,ES_PASSWORD
+    CONTROL         "Username:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,14,15,35,8
+    LTEXT           "Password:",IDC_STATIC,14,39,34,8
+    GROUPBOX        "AIM",IDC_STATIC,6,7,119,60
+END
+
+IDD_DIALOG5 DIALOG DISCARDABLE  0, 0, 278, 197
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",ES_AUTOHSCROLL | WS_BORDER | 
+                    WS_TABSTOP,7,7,264,105
+    PUSHBUTTON      "Send",IDC_BUTTON1,157,176,52,14
+    PUSHBUTTON      "Close",IDC_BUTTON2,221,176,50,14
+    CONTROL         "",IDC_RICHEDIT2,"RICHEDIT",ES_AUTOHSCROLL | WS_BORDER | 
+                    WS_TABSTOP,7,128,264,34
+END
+
+IDD_CREATECHATROOM DIALOG DISCARDABLE  0, 0, 231, 124
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Chat Room"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Create",IDOK,174,103,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,118,103,50,14
+    EDITTEXT        IDC_EDIT1,18,82,192,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,15,16,196,35,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    LTEXT           "Invitation Message:",IDC_STATIC,16,7,62,8
+    LTEXT           "Chat Room Name:",IDC_STATIC,17,73,59,8
+END
+
+PROPERTIES_AWAYANDIDLE DIALOG DISCARDABLE  0, 0, 301, 209
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Away & Idle"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,98,50,189,64,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    WS_VSCROLL
+    EDITTEXT        IDC_IDLEMESSAGE,13,150,274,46,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    GROUPBOX        "Away Messages",IDC_STATIC,7,7,287,128
+    GROUPBOX        "Idle Message",IDC_STATIC,7,141,287,61
+    LISTBOX         IDC_LIST1,13,18,81,110,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add New",IDC_ADDNEWMESSAGE,233,119,55,11
+    EDITTEXT        IDC_EDIT3,98,24,190,12,ES_AUTOHSCROLL
+    LTEXT           "Message:",IDC_STATIC,98,42,30,8
+    LTEXT           "Title:",IDC_STATIC,98,16,16,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SIGNON, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 138
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+
+    PROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 338
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_AWAYMESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+
+    PROPERTIES_NETWORK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    PROPERTIES_BUDDYLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 279
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 256
+    END
+
+    IDD_EDITINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_ADDBUDDY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 129
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_ADDGROUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 130
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    PROPERTIES_LOGGING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 306
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    PROPERTIES_USER, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+
+    IDD_CREATECHATROOM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 117
+    END
+
+    PROPERTIES_AWAYANDIDLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+CHATICON                ICON    DISCARDABLE     "icons\\icon4.ico"
+MAINICON                ICON    DISCARDABLE     "icons\\mia.ico"
+MAINICON_OFFLINE        ICON    DISCARDABLE     "icons\\mainicon.ico"
+DEBUG                   ICON    DISCARDABLE     "icons\\favicon.ico"
+OFFLINE                 ICON    DISCARDABLE     "icons\\icon5.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "graphics\\bitmap1.bmp"
+NEWCHAT                 BITMAP  DISCARDABLE     "graphics\\BTNLNEWCHAT.bmp"
+NEWCHATD                BITMAP  DISCARDABLE     "graphics\\BTNLNEWCHATDOWN copy.bmp"
+AWAY                    BITMAP  DISCARDABLE     "graphics\\BTNLAWAY.bmp"
+AWAYD                   BITMAP  DISCARDABLE     "graphics\\BTNLAWAYDOWN.BMP"
+SIGNOFF                 BITMAP  DISCARDABLE     "graphics\\SIGNOFF.bmp"
+SIGNOFFD                BITMAP  DISCARDABLE     "graphics\\SIGNOFFDOWN.bmp"
+TOPLOGO                 BITMAP  DISCARDABLE     "Graphics\\BUDDYLISTLOGO.bmp"
+LOGONLOGO               BITMAP  DISCARDABLE     "Graphics\\LOGONLOGO.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "graphics\\bitmap3.bmp"
+IDB_DELBUDDY            BITMAP  DISCARDABLE     "graphics\\btn_delb.bmp"
+IDB_ADDBUDDY            BITMAP  DISCARDABLE     "graphics\\dtn_addb.bmp"
+IDB_ADDGROUP            BITMAP  DISCARDABLE     "graphics\\bmp00001.bmp"
+IDB_AWAYMESSAGE         BITMAP  DISCARDABLE     "graphics\\bitmap4.bmp"
+IDB_KILLALLWINDOWS      BITMAP  DISCARDABLE     "graphics\\bmp00002.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SIGNON DLGINIT
+BEGIN
+    IDC_USERNAME, 0x403, 27, 0
+0x6172, 0x646e, 0x3032, 0x3230, 0x6863, 0x7461, 0x722c, 0x6e61, 0x3264, 
+0x3030, 0x6332, 0x6168, 0x3274, "\000" 
+    0
+END
+
+PROPERTIES_USER DLGINIT
+BEGIN
+    IDC_P_TOCUSERNAME, 0x403, 27, 0
+0x6172, 0x646e, 0x3032, 0x3230, 0x6863, 0x7461, 0x722c, 0x6e61, 0x3264, 
+0x3030, 0x6332, 0x6168, 0x3274, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TOP_COPYBUDDYNAMETOCLIPBOARD "hello world"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

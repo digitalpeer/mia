@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mia - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Script1.res" /d "_DEBUG" "C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\Script1.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/mia.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\htmlctrl.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\Mia.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaAboutDlg.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaAddBuddyDlg.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaAddGroupDlg.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaAwayDlg.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaBuddy.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaBuddyList.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaChatDialog.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaChatRoomDlg.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaConfig.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaCreateChatRoom.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaDebugWindow.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaEditInfoDlg.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaFileFunc.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaInfoDlg.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaMainWindow.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaNumberTrack.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaProtocolIRC.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaSendTextBox.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaSocket.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaSystemTray.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaTOC.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaVewTextBox.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\StdAfx.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaPropertyAwayIdle.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaPropertyBuddyList.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaPropertyLogging.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaPropertyPageNetwork.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaPropertySheet.cpp"
+"C:\Documents and Settings\Administrator\Desktop\MIA-src-0.0.1\MIA Source\MiaPropertyUser.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA5.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/mia.pdb" /debug /machine:I386 /out:"Debug/mia.exe" /pdbtype:sept 
+".\Debug\htmlctrl.obj"
+".\Debug\Mia.obj"
+".\Debug\MiaAboutDlg.obj"
+".\Debug\MiaAddBuddyDlg.obj"
+".\Debug\MiaAddGroupDlg.obj"
+".\Debug\MiaAwayDlg.obj"
+".\Debug\MiaBuddy.obj"
+".\Debug\MiaBuddyList.obj"
+".\Debug\MiaChatDialog.obj"
+".\Debug\MiaChatRoomDlg.obj"
+".\Debug\MiaConfig.obj"
+".\Debug\MiaCreateChatRoom.obj"
+".\Debug\MiaDebugWindow.obj"
+".\Debug\MiaEditInfoDlg.obj"
+".\Debug\MiaFileFunc.obj"
+".\Debug\MiaInfoDlg.obj"
+".\Debug\MiaMainWindow.obj"
+".\Debug\MiaNumberTrack.obj"
+".\Debug\MiaProtocolIRC.obj"
+".\Debug\MiaSendTextBox.obj"
+".\Debug\MiaSocket.obj"
+".\Debug\MiaSystemTray.obj"
+".\Debug\MiaTOC.obj"
+".\Debug\MiaVewTextBox.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MiaPropertyAwayIdle.obj"
+".\Debug\MiaPropertyBuddyList.obj"
+".\Debug\MiaPropertyLogging.obj"
+".\Debug\MiaPropertyPageNetwork.obj"
+".\Debug\MiaPropertySheet.obj"
+".\Debug\MiaPropertyUser.obj"
+".\Debug\Script1.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+htmlctrl.cpp
+Mia.cpp
+MiaAboutDlg.cpp
+MiaAddBuddyDlg.cpp
+MiaAddGroupDlg.cpp
+MiaAwayDlg.cpp
+MiaBuddy.cpp
+MiaBuddyList.cpp
+MiaChatDialog.cpp
+MiaChatRoomDlg.cpp
+MiaConfig.cpp
+MiaCreateChatRoom.cpp
+MiaDebugWindow.cpp
+MiaEditInfoDlg.cpp
+MiaFileFunc.cpp
+MiaInfoDlg.cpp
+MiaMainWindow.cpp
+MiaNumberTrack.cpp
+MiaProtocolIRC.cpp
+MiaSendTextBox.cpp
+MiaSocket.cpp
+MiaSystemTray.cpp
+MiaTOC.cpp
+MiaVewTextBox.cpp
+StdAfx.cpp
+MiaPropertyAwayIdle.cpp
+MiaPropertyBuddyList.cpp
+MiaPropertyLogging.cpp
+MiaPropertyPageNetwork.cpp
+MiaPropertySheet.cpp
+MiaPropertyUser.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+mia.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
